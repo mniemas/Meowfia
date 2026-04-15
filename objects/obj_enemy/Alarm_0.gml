@@ -1,5 +1,6 @@
-y -= 20;
-if (y < ystart - 80){
+// Moving sprite up as part of attack animation
+y -= 20; 
+if (y < ystart - 80){ // if sprite below greatest height
 	alarm[1] = 1; // move back to orignal pos
 }
 else{

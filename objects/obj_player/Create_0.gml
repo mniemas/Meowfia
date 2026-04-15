@@ -1,0 +1,1 @@
+defense_up = false // initial def neutral
