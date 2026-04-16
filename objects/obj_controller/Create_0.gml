@@ -7,6 +7,7 @@ player_attack = function(){
 
 check_turn_end = function(){ // function to check if players turn should end
 	energy_out = true // start with true
+	
 	for( var i = 0; i < array_length(obj_deck.hand); i++) // check if their are any playable cards
 	{
 		if((obj_player.energy - obj_deck.hand[i].energy_cost) >= 0){
@@ -14,6 +15,11 @@ check_turn_end = function(){ // function to check if players turn should end
 			energy_out = false
 		}	
 	}
+
+
+	show_debug_message($"Energy out: { obj_player.energy <= 0}")
+	show_debug_message($"No cards left: {!(instance_exists(obj_card))}")
+	show_debug_message($"No cards playable: {energy_out}")
 	return ( obj_player.energy <= 0 || !(instance_exists(obj_card)) || energy_out)
 	// if player has no energy, or has played all their cards, turn ends
 }

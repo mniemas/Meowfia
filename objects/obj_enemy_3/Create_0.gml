@@ -7,6 +7,7 @@ function attack_up_act(){
 
 function attack_second(){
 	obj_enemy.alarm[0] = 15; // trigger enemy attack animation
+	show_debug_message("happening")
 	var _enemy_damage = max(0,(attack * 50) - (attack * 100 * obj_player.defense)) // subtract damage to player by their def
 	obj_player.hp = max(0, obj_player.hp - _enemy_damage); // player health cannot go below 0
 }

@@ -1,5 +1,6 @@
 // alarm for player turn start
 // flags reset on player turn
+obj_deck.alarm[0] = 10
 if(defense_up){ // reset def up
 	defense_up = false
 	defense = defense - .4
@@ -24,7 +25,7 @@ if(obj_enemy.attack_down){ // enemy attack goes back to normal on player turn
 if(obj_enemy.defense_down){ // enemy attack goes back to normal on player turn
 	obj_enemy.defense_down = false
 	obj_enemy.defense = obj_enemy.defense + (0.4 * obj_enemy.defense_down_stacks)
-	obj_enemy.attack_down_stacks = 0
+	obj_enemy.defense_down_stacks = 0
 }
 
 energy = energy_total // reset energy

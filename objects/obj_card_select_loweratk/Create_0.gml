@@ -1,0 +1,1 @@
+card_to_add = obj_card_lower_attack
