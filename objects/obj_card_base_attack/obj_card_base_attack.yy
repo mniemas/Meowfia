@@ -6,8 +6,8 @@
   "name":"obj_card_base_attack",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cards",
-    "path":"folders/Objects/Cards.yy",
+    "name":"BattleCards",
+    "path":"folders/Objects/BattleCards.yy",
   },
   "parentObjectId":{
     "name":"obj_card",
@@ -31,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"card",
-    "path":"sprites/card/card.yy",
+    "name":"spr_baseattack_temp",
+    "path":"sprites/spr_baseattack_temp/spr_baseattack_temp.yy",
   },
-  "spriteMaskId":{
-    "name":"card",
-    "path":"sprites/card/card.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

@@ -4,9 +4,9 @@ if (check_for_end()){
 }
 else{ // if battle isnt over
 	if(check_turn_end()){
+		obj_enemy.alarm[2] = 10; //enemy flag reset
 		enemy_turn = 1 // players turn is over -> enemy turn
-		alarm[1] = 60; // enemy attack will happen
-		obj_enemy.alarm[0] = 30; // trigger enemy attack animation
+		alarm[1] = 30; // enemy attack will happen
 	}
 
 }

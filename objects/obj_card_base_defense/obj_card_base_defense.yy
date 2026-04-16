@@ -8,8 +8,8 @@
   "name":"obj_card_base_defense",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cards",
-    "path":"folders/Objects/Cards.yy",
+    "name":"BattleCards",
+    "path":"folders/Objects/BattleCards.yy",
   },
   "parentObjectId":{
     "name":"obj_card",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"card_def",
-    "path":"sprites/card_def/card_def.yy",
+    "name":"spr_basedef_temp",
+    "path":"sprites/spr_basedef_temp/spr_basedef_temp.yy",
   },
   "spriteMaskId":null,
   "visible":true,
