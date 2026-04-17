@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_shuffle_array",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_shuffle_array",
+  "parent":{
+    "name":"Meowfia",
+    "path":"Meowfia.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_make_starting_deck",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_make_starting_deck",
+  "parent":{
+    "name":"Meowfia",
+    "path":"Meowfia.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

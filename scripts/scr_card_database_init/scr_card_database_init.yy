@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_card_database_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_card_database_init",
+  "parent":{
+    "name":"Meowfia",
+    "path":"Meowfia.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
