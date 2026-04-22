@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_lowerdef_temp",
-    "path":"sprites/spr_lowerdef_temp/spr_lowerdef_temp.yy",
+    "name":"spr_lowerdef",
+    "path":"sprites/spr_lowerdef/spr_lowerdef.yy",
   },
   "spriteMaskId":null,
   "visible":true,

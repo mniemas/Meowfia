@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dmgifdef_temp",
-    "path":"sprites/spr_dmgifdef_temp/spr_dmgifdef_temp.yy",
+    "name":"spr_dmgifdef",
+    "path":"sprites/spr_dmgifdef/spr_dmgifdef.yy",
   },
   "spriteMaskId":null,
   "visible":true,

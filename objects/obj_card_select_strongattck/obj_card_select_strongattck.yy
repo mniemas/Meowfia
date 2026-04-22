@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bigattack_temp",
-    "path":"sprites/spr_bigattack_temp/spr_bigattack_temp.yy",
+    "name":"spr_strongatk",
+    "path":"sprites/spr_strongatk/spr_strongatk.yy",
   },
   "spriteMaskId":null,
   "visible":true,

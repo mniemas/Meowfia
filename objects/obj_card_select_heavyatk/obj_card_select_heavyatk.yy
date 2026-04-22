@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_heavyhit_temp",
-    "path":"sprites/spr_heavyhit_temp/spr_heavyhit_temp.yy",
+    "name":"spr_heavyatk",
+    "path":"sprites/spr_heavyatk/spr_heavyatk.yy",
   },
   "spriteMaskId":null,
   "visible":true,

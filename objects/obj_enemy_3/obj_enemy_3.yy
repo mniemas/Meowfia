@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"dog3_placeholder",
-    "path":"sprites/dog3_placeholder/dog3_placeholder.yy",
+    "name":"spr_dog3",
+    "path":"sprites/spr_dog3/spr_dog3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

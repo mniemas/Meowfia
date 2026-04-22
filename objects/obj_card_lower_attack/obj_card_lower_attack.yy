@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_lowerattack_temp",
-    "path":"sprites/spr_lowerattack_temp/spr_lowerattack_temp.yy",
+    "name":"spr_atkdown",
+    "path":"sprites/spr_atkdown/spr_atkdown.yy",
   },
   "spriteMaskId":null,
   "visible":true,

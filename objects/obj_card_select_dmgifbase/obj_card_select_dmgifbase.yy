@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dmgifbase_temp",
-    "path":"sprites/spr_dmgifbase_temp/spr_dmgifbase_temp.yy",
+    "name":"spr_dmgifbase",
+    "path":"sprites/spr_dmgifbase/spr_dmgifbase.yy",
   },
   "spriteMaskId":null,
   "visible":true,

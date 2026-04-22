@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_basedef_temp",
-    "path":"sprites/spr_basedef_temp/spr_basedef_temp.yy",
+    "name":"spr_defup",
+    "path":"sprites/spr_defup/spr_defup.yy",
   },
   "spriteMaskId":null,
   "visible":true,

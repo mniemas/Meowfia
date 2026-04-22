@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_attackup_temp",
-    "path":"sprites/spr_attackup_temp/spr_attackup_temp.yy",
+    "name":"spr_atkup",
+    "path":"sprites/spr_atkup/spr_atkup.yy",
   },
   "spriteMaskId":null,
   "visible":true,

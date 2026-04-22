@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_baseattack_temp",
-    "path":"sprites/spr_baseattack_temp/spr_baseattack_temp.yy",
+    "name":"spr_baseatk",
+    "path":"sprites/spr_baseatk/spr_baseatk.yy",
   },
   "spriteMaskId":null,
   "visible":true,

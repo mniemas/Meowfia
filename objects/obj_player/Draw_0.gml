@@ -22,7 +22,7 @@ if(defense_down) // if defense flag is up
 }
 
 if (attack_up){ // if attack flag is up
-	draw_text(x+3, y - 40, "Attack Up!") // display atk is up
+	draw_text(x+3, y - 40, $"Attack Up! x{attack_stacks}") // display atk is up
 }
 
 if(attack_down){

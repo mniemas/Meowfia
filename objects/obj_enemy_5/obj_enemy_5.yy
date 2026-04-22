@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"dog5_placeholder",
-    "path":"sprites/dog5_placeholder/dog5_placeholder.yy",
+    "name":"spr_dog5",
+    "path":"sprites/spr_dog5/spr_dog5.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_energycard_temp",
-    "path":"sprites/spr_energycard_temp/spr_energycard_temp.yy",
+    "name":"spr_energy",
+    "path":"sprites/spr_energy/spr_energy.yy",
   },
   "spriteMaskId":null,
   "visible":true,
