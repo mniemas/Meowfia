@@ -3,8 +3,8 @@
   "%Name":"spr_dog3",
   "bboxMode":0,
   "bbox_bottom":1226,
-  "bbox_left":225,
-  "bbox_right":1087,
+  "bbox_left":60,
+  "bbox_right":922,
   "bbox_top":41,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1280,
+  "width":950,
 }
