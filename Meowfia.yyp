@@ -78,6 +78,7 @@
     {"id":{"name":"Gameover","path":"rooms/Gameover/Gameover.yy",},},
     {"id":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"id":{"name":"Win","path":"rooms/Win/Win.yy",},},
+    {"id":{"name":"shd_flash","path":"shaders/shd_flash/shd_flash.yy",},},
     {"id":{"name":"spr_atkdown","path":"sprites/spr_atkdown/spr_atkdown.yy",},},
     {"id":{"name":"spr_atkup","path":"sprites/spr_atkup/spr_atkup.yy",},},
     {"id":{"name":"spr_attackup_temp","path":"sprites/spr_attackup_temp/spr_attackup_temp.yy",},},

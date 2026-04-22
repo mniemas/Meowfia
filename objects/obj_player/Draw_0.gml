@@ -1,5 +1,18 @@
 draw_self();
 draw_set_font(-1)
+if (flash >0){
+	flash -= 0.05
+	shader_set(shd_flash)
+	shd_alpha = shader_get_uniform(shd_flash, "_alpha")
+	shader_set_uniform_f(shd_alpha, flash)
+	draw_self();
+	draw_set_font(-1)
+shader_reset()
+}
+	
+
+
+
 var message = $"{ceil(hp)}/{hp_total}" // display hp
 draw_text(x +3, y - 2, message);
 

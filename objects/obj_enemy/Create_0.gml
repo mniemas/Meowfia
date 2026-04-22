@@ -7,4 +7,5 @@ attack_down_stacks = 0 // stacking decreasing attack
 
 defense_down = false
 defense_down_stacks = 0
+flash = 0
 
