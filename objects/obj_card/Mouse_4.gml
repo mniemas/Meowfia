@@ -6,4 +6,10 @@ if(obj_player.energy - energy_cost < 0 ){
 }
 action(); // perform action def in create
 obj_player.energy = obj_player.energy - energy_cost // take energy from player
-instance_destroy() // destroy card
+instance_destroy()
+/*)
+show_debug_message($"{room_width/2}")
+move_towards_point(room_width/2-(sprite_width/2), (room_height/2)-(sprite_height/2), 30)
+//alarm[1] = 1
+alarm[0] = 20
+

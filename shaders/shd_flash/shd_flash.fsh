@@ -12,7 +12,7 @@ uniform float _blue;
 void main()
 {
 	vec4 Color =  texture2D( gm_BaseTexture, v_vTexcoord );
-	if (Color.a != 0.0) { // check if transparent
-		gl_FragColor = vec4(255,255,255, _alpha);
+	if (Color.a >= 0.5) { // check if transparent
+		gl_FragColor = vec4(_red, _green, _blue, _alpha);
 	}
 }

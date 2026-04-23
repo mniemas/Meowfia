@@ -1,14 +1,3 @@
-// make transparent if not turn - arifact from previous testing
-/*
-if(obj_controller.enemy_turn){ 
-	image_alpha = 0.6;
+if(x > room_width/2-(sprite_width/2)){
+	speed = 0
 }
-else{
-	image_alpha = 1;
-}
-
-// Scale cards, temporary 
-/*
-image_xscale = 0.35
-image_yscale = 0.35
-*/

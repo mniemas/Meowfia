@@ -3,8 +3,31 @@ draw_set_font(-1)
 if (flash >0){
 	flash -= 0.05
 	shader_set(shd_flash)
+	shd_r = shader_get_uniform(shd_flash, "_red")
+	shd_g = shader_get_uniform(shd_flash, "_green")
+	shd_b = shader_get_uniform(shd_flash,"_blue")
+	show_debug_message($"Player: {flashColor}")
+	if(flashColor == 0){
+		r = 0
+		g = 0
+		b = 0
+		
+	}
+	else if(flashColor == 1){
+		r = 211
+		g = 211
+		b = 211
+	}
+	else{
+		r = 255
+		g = 255
+		b = 255
+	}
 	shd_alpha = shader_get_uniform(shd_flash, "_alpha")
 	shader_set_uniform_f(shd_alpha, flash)
+	shader_set_uniform_f(shd_r, r)
+	shader_set_uniform_f(shd_g, g)
+	shader_set_uniform_f(shd_b, b)
 	draw_self();
 	draw_set_font(-1)
 shader_reset()

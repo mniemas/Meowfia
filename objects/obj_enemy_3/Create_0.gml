@@ -3,6 +3,8 @@ event_inherited();
 function attack_up_act(){
 	attack_up = true // set attack flag up
 	attack = attack + 0.2  // add attack
+	obj_enemy.flash = 1
+	obj_enemy.flashColor = 0
 }
 
 function attack_second(){

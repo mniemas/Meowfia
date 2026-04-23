@@ -4,11 +4,14 @@ event_inherited();
 function attack_up_act(){
 	attack_up = true // set attack flag up
 	attack = attack + 0.2  // add attack
+	obj_enemy.flash = 1
+	obj_enemy.flashColor = 0
 }
 
 function def_down_act(){
 	obj_player.defense = obj_player.defense - 0.4; // actually effects def
 	obj_player.defense_down = true // sets def down flag
+	obj_player.flashColor = 1
 	obj_player.flash = 1
 }
 
