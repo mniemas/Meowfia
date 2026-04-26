@@ -20,7 +20,10 @@ if( room == B1Tutorial){
 	text = ["Welcome to your first battle... ->",
 		"Battle consists of your turn, then your enemies turn. ->",
 		"Your turn ends when you are out of energy, or out of playable cards. ->",
-		"You can play any number of cards, as long as you have the energy (displayed in left corner) for them. ->",
+		"You can play any number of cards, as long as you have the energy for them. ->",
+		"You play cards by left clicking them. ->",
+		"Your health, energy, and status effects are displayed in the left corner. ->",
+		"Your enemies health and status are displayed near the center. ->",
 		"Normally, each turn, you draw five cards. ->",
 		"You will always draw your Punch and Guard cards. ->",
 		"Your other three cards will be drawn from a special deck. ->",
@@ -34,7 +37,7 @@ if( room == B1Tutorial){
 }
 
 if(room == C1){
-	text = ["I've got some ways to help you out... Right click on a card to take one. But I can only spare one. |"]
+	text = ["I've got some ways to help you out... Left click on a card to take one. But I can only spare one. |"]
 }
 
 if(room == C2){

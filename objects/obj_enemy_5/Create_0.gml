@@ -6,6 +6,7 @@ function attack_up_act(){
 	attack = attack + 0.2  // add attack
 	obj_enemy.flash = 1
 	obj_enemy.flashColor = 0
+	audio_play_sound(sfx_buff, 1, false)
 }
 
 function def_down_act(){
@@ -13,6 +14,7 @@ function def_down_act(){
 	obj_player.defense_down = true // sets def down flag
 	obj_player.flashColor = 1
 	obj_player.flash = 1
+	audio_play_sound(sfx_debuff, 1, false)
 }
 
 function attack_second(){

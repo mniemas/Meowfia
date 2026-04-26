@@ -1,3 +1,4 @@
+audio_play_sound(sfx_card, 1, false)
 hand[0] = instance_create_depth(44, 1000, -1000, obj_card_base_attack) // create basic attck and def cards
 	hand[1] = instance_create_depth(290, 1000, -1000, obj_card_base_defense)
 	

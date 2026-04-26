@@ -5,6 +5,7 @@ if(obj_player.energy - energy_cost < 0 ){
 	exit
 }
 action(); // perform action def in create
+audio_play_sound(sfx_card, 1, false)
 obj_player.energy = obj_player.energy - energy_cost // take energy from player
 instance_destroy()
 /*)

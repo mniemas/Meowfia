@@ -2,6 +2,7 @@ action = function(){ // action that changes per card
 	obj_player.attack = obj_player.attack + .2; // actually effects def
 	obj_player.attack_up = true // sets def up flag
 	obj_player.attack_stacks++
+	audio_play_sound(sfx_buff, 1, false)
 	obj_player.flash = 1
 	obj_player.flashColor = 0
 	obj_controller.alarm[0] = 10 //check if turn end
