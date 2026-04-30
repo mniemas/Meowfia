@@ -1,5 +1,5 @@
 action = function(){ // action that changes per card
-	var _dmg = max(0,(obj_player.attack * 200) - (obj_player.attack * 100 * obj_enemy.defense));
+	var _dmg = max(0,(obj_player.attack * 250) - (obj_player.attack * 100 * obj_enemy.defense));
 	obj_enemy.flash = 1
 	obj_enemy.flashColor = 2
 	obj_enemy.hp = max(0, obj_enemy.hp - _dmg) // enemy health cannot go below 0

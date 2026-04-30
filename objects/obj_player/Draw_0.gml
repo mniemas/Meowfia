@@ -42,11 +42,14 @@ draw_text(x +3, y - 2, message);
 var message2 = $"{ceil(energy)}/{energy_total}" // display energy
 draw_text(x +3, y + 10, message2);
 
+/*
+
 var message3 = $"Attack: {attack}" // display attack
 draw_text(x +3, y + 190, message3);
 
 var message4 = $"Defense: {defense}" // display defense
 draw_text(x +3, y + 210, message4);
+*/
 
 if(defense_up) // if defense flag is up
 {
