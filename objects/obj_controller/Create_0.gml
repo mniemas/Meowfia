@@ -2,6 +2,7 @@ enemy_turn = 0; // 1 when enemy turn
 damage_to_enemy = 0; // dmg to do to enemy in players turn
 
 audio_play_sound(sfx_ambiance, 1, true)
+audio_play_sound(sfx_backing, 1, true)
 
 player_attack = function(){
 	alarm[0] = 40; // let animation play for 40 frames, then attack

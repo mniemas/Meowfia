@@ -81,6 +81,7 @@
     {"id":{"name":"Win","path":"rooms/Win/Win.yy",},},
     {"id":{"name":"shd_flash","path":"shaders/shd_flash/shd_flash.yy",},},
     {"id":{"name":"sfx_ambiance","path":"sounds/sfx_ambiance/sfx_ambiance.yy",},},
+    {"id":{"name":"sfx_backing","path":"sounds/sfx_backing/sfx_backing.yy",},},
     {"id":{"name":"sfx_buff","path":"sounds/sfx_buff/sfx_buff.yy",},},
     {"id":{"name":"sfx_card","path":"sounds/sfx_card/sfx_card.yy",},},
     {"id":{"name":"sfx_debuff","path":"sounds/sfx_debuff/sfx_debuff.yy",},},
